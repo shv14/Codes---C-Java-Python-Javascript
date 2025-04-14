@@ -32,7 +32,7 @@ public class GoodString {
             } else {
                 char prev = s.charAt(i - 1); // Previous character
 
-                // Check if current character continues a "good" pattern
+                // Subsequence.Check if current character continues a "good" pattern
                 if (
                     prev + 1 == cur ||        // Next alphabetical character (e.g., a -> b)
                     cur == prev - 1 ||        // Previous alphabetical character (e.g., b -> a)
