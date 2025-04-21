@@ -1,5 +1,5 @@
 // Declare an array with 10 names, including some duplicates
-const arr = ["Liam", "Emma", "Olivia", "Noah", "Ava", "Liam", "Sophia", "Mason", "Olivia", "Isabella"];
+const arr = ["Liam", "Emma", "Olivia", "Noah", "Ava", "Liam", "Sophia", "Mason", "Olivia", "Isabella", "Mason"];
 
 // Use a Set to automatically remove duplicate names from the array
 // The spread operator (...) is used to convert the Set back into an array
