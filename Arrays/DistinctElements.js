@@ -1,5 +1,5 @@
 // Declare an array with 10 names, including some duplicates
-const arr = ["Liam", "Emma", "Olivia", "Noah", "Ava", "Liam", "Sophia", "Mason", "Olivia", "Isabella"];
+const arr = ["Liam", "Emma", "Olivia", "Noah", "Ava", "Liam", "Sophia", "Mason", "Olivia", "Isabella", "Mason"];
 
 // Use filter to remove duplicate names and keep only unique ones
 const uniqueNames = arr.filter((item, index) =>
